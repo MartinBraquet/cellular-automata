@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools>=61.2",
+    "wheel",
+]
+
+[project]
+name = "cellular_automata"
+version = "0.1.0"
+description = "Cellular Automata"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib",
+    "mpld3",
+    "notebook",
+    "numpy",
+]
