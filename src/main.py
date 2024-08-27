@@ -166,10 +166,10 @@ def cellular_automaton(
 
 if __name__ == '__main__':
     cellular_automaton(
-        save='gif',
-        n_grid=60,
-        frames=25,
-        rule=partial(rule_1d, rule_number=30),
-        initial_setup='center',
-        interval=200,
+        # save='gif',
+        n_grid=60,  # number of tiles in the grid
+        frames=100,  # number of frames (aka steps)
+        rule=game_of_life,  # type of evolution law
+        initial_setup='chaos',  # initial state
+        interval=200,  # interval between two steps (in milliseconds)
     )
