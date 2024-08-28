@@ -1,0 +1,1 @@
+from .main import cellular_automaton, game_of_life, rule_1d
