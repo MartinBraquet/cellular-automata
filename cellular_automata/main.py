@@ -16,7 +16,7 @@ NEIGHBORS_STEPS = set(product(STEPS, STEPS)).difference([(0, 0)])
 
 
 def generate_data(n=N, how='random'):
-    c = (N // 2, N // 2)
+    c = (n // 2, n // 2)
     if how == 'random':
         a = np.random.rand(n, n) * 0.6
     elif how == 'T':
